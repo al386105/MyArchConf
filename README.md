@@ -29,7 +29,7 @@ De esta forma, al reiniciar (reboot) se nos carga automaticamente el getor de in
 Instalamos algunos de los paquetes de utilidad para mi:
 
 ```console
-user@hostname:~$ sudo pacman -S ranger rofi kitty chromium pavucontrol git htop nvim flameshot code feh ntfs-3g lxappearance qt5ct arc-solid-gtk-theme arc-icon-theme
+user@hostname:~$ sudo pacman -S ranger rofi chromium pavucontrol git htop nvim flameshot code feh ntfs-3g lxappearance qt5ct arc-solid-gtk-theme arc-icon-theme
 ```
 
 * **Nemo** es un gestor de archivos y ficheros con interfaz gráfica. Alternativa: **Nautilus** evita algunos problemillas ya que está por defecto y es muy parecido a nemo. 
@@ -50,7 +50,7 @@ user@hostname:~$ sudo pacman -S ranger rofi kitty chromium pavucontrol git htop 
 * **qt5ct** para gestionar los temas de otra gran parte de las aplicaciones de Linux distintas a las que gestiona lxappearance.
 * **arc-solid-gtk-theme** tema de arch para aplicaciones que utilizan el tema establecido por lxappearance.
 * **arc-icon-theme** iconos de arch para aplicaciones que utilizan el tema establecido por lxappearance.
-
+* **arandr** interfaz sencilla para la gestión de monitores
 
 ## Para siguientes secciones de configuración y comandos de interés
 * pactl set-sink-volume @DEFAULT_SINK@ +5%
