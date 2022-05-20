@@ -29,13 +29,13 @@ De esta forma, al reiniciar (reboot) se nos carga automaticamente el getor de in
 Instalamos algunos de los paquetes de utilidad para mi:
 
 ```console
-user@hostname:~$ sudo pacman -S nemo ranger rofi kitty chromium pavucontrol git htop nvim flameshot code feh ntfs-3g xbindkeys lxappearance qt5ct arc-solid-gtk-theme arc-icon-theme
+user@hostname:~$ sudo pacman -S ranger rofi kitty chromium pavucontrol git htop nvim flameshot code feh ntfs-3g lxappearance qt5ct arc-solid-gtk-theme arc-icon-theme
 ```
 
-* **Nemo** es un gestor de archivos y ficheros con interfaz gráfica.
+* **Nemo** es un gestor de archivos y ficheros con interfaz gráfica. Alternativa: **Nautilus** evita algunos problemillas ya que está por defecto y es muy parecido a nemo. 
 * **Ranger** es un gestor de archivos y ficheros para la CLI.
 * **Rofi** es un menú para lanzar los programas instalados (rofi -show drun).
-* **Kitty** es un emulador de terminal que utiliza GPU para acelarar las operaciones. Es muy configurable.
+* **Kitty** es un emulador de terminal que utiliza GPU para acelarar las operaciones. Es muy configurable. Alternativa: **Alacritty** está instalado por defecto con awesomewm. 
 * **Chromium** es el navegador chrome desarrollado para sistemas Linux.
 * **Pavucontrol** es el controlador de PulseAudio para ajustar aspectos de entrada y salida del volumen.
 * **Git** no hace falta explicarlo :)
@@ -43,9 +43,9 @@ user@hostname:~$ sudo pacman -S nemo ranger rofi kitty chromium pavucontrol git 
 * **Neovim** editor para la CLI (la evolución de vim).
 * **Flameshot** para realizar capturas y edición de estas.
 * **Code** es un editor de textos y código (Visual Studio Code).
-* **Feh** para establecer el fondo de pantalla.
+* **Feh** para establecer el fondo de pantalla y mostrar imagenes.
 * **ntfs-3g** para desmontar usbs y acceder al contenido de estos cuando su sistema de ficheros es ntfs.
-* **xbindkeys** para gestionar la funcionalidad de teclas como subir volumen, bajar volumen, mutear, etc.
+* **xbindkeys** para gestionar la funcionalidad de teclas como subir volumen, bajar volumen, mutear, etc. Igual no hace falta si se controla desde el propio rc.lua de awesome. 
 * **lxappearance** para gestionar los temas de gran parte de las aplicaciones de Linux 
 * **qt5ct** para gestionar los temas de otra gran parte de las aplicaciones de Linux distintas a las que gestiona lxappearance.
 * **arc-solid-gtk-theme** tema de arch para aplicaciones que utilizan el tema establecido por lxappearance.
