@@ -111,3 +111,6 @@ mpardo@arch:~$ sudo systemctl enable --now snapd.socket
 mpardo@arch:~$ sudo ln -s /var/lib/snapd/snap /snap
 ```
 
+![image](https://user-images.githubusercontent.com/60443339/174800803-53a21d17-1f5a-461b-b5cd-cd6e0ac4872c.png)
+
+
